@@ -4,7 +4,7 @@
     <div class="overflow-hidden relative z-0 bg-green-400 lg:bg-cover bg-no-repeat bg-center p-12 text-center md:h-[80vh] lg:h-[70vh]">
         <!-- Background Image -->
         <div class="overflow-hidden absolute top-0 right-0 bottom-0 left-0 z-0 max-h-full">
-            <img src="../assets/image/splash.jpg" alt="" class="brightness-[.30] h-full object-cover"/>
+            <img src="../assets/image/splash.jpg" alt="" class="brightness-[.30] h-full w-full lg:h-auto object-cover"/>
         </div>
 
         <!-- Headings -->
@@ -67,7 +67,7 @@
     <p class="my-4 mt-36 text-center text-4xl font-semibold">Area of Interest</p>
 
     <!-- Area of Cards -->
-    <div class="flex flex-wrap items-center justify-center px-10 mb-10 mx-28">
+    <div class="flex flex-wrap items-center justify-center px-10 mb-10 lg:mx-28">
     <!-- Card Looping -->
         <div v-for="interest in interestList" v-bind:key="interest.id" class="skill">
             <div class="w-80 rounded-xl p-7">
