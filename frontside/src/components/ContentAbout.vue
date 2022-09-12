@@ -3,11 +3,12 @@
         <p class="text-center text-4xl font-semibold">Personal Detail</p>
         <div class="mt-7 flex flex-row items-center justify-center">
             <!-- Area of Personal Detail -->
-            <div class="flex flex-col-reverse px-24 lg:flex-row">
+            <div class="flex flex-col-reverse lg:px-24 px-10 lg:flex-row">
                 <!-- Description -->
-                <div class="flex w-auto flex-col justify-center p-7 lg:w-[35rem]">
-                    <p class="mb-7 text-center text-2xl font-semibold text-gray-600 lg:text-left">About Me</p>
-                    
+                <div class="flex w-auto flex-col justify-center p-7 p-0 lg:w-[35rem]">
+                    <p class="mb-7 lg:mt-0 mt-7 text-center text-2xl font-semibold text-gray-600 lg:text-left">
+                        About Me
+                    </p>
                     <p class="pb-4 text-justify text-gray-500">
                         I'm a fresh graduate from Dian Nuswantoro University. Data enthusiast and have strong will to learn about something new. 
                     </p>

@@ -2,18 +2,18 @@
 <div>
     <p class="mb-14 mt-20 text-center text-4xl font-semibold">My Experience</p>
 
-    <div class="flex w-full items-center justify-center px-28 pb-20">
+    <div class="flex w-full items-center justify-center lg:px-28 px-5 pb-20">
         <div>
             <!-- Dot timeline -->
-            <div class="flex h-48">
+            <div class="flex lg:h-48 h-60">
             <div class="mr-4 flex flex-col items-center">
                 <div>
-                <div class="flex h-10 w-10 items-center justify-center rounded-full border border-blue-500 text-blue-500 transition-[color,box-shadow] duration-[400ms,700ms] hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-blue-500">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <!-- SVG From Heroicons-->
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-                    </svg>
-                </div>
+                    <div class="flex h-10 w-10 items-center justify-center rounded-full border border-blue-500 text-blue-500 transition-[color,box-shadow] duration-[400ms,700ms] hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-blue-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <!-- SVG From Heroicons-->
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
+                        </svg>
+                    </div>
                 </div>
                 <div class="h-full w-px bg-blue-500"></div>
             </div>
@@ -25,7 +25,7 @@
             </div>
 
             <!-- Dot timeline -->
-            <div class="flex h-48">
+            <div class="flex lg:h-48 h-60">
             <div class="mr-4 flex flex-col items-center">
                 <div>
                 <div class="flex h-10 w-10 items-center justify-center rounded-full border border-blue-500 text-blue-500 transition-[color,box-shadow] duration-[400ms,700ms] hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-blue-500">

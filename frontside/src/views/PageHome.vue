@@ -1,19 +1,19 @@
 <template>
 <div>
     <!-- Jumbotron -->
-    <div class="overflow-hidden relative z-0 bg-green-400 bg-cover bg-no-repeat bg-center p-12 text-center h-[38vh] md:h-[50vh] lg:h-[70vh]">
+    <div class="overflow-hidden relative z-0 bg-green-400 lg:bg-cover bg-no-repeat bg-center p-12 text-center md:h-[80vh] lg:h-[70vh]">
         <!-- Background Image -->
-        <div class="overflow-hidden absolute top-0 right-0 bottom-0 left-0 z-0 max-w-full bg-cover">
-            <img src="../assets/image/splash.jpg" alt="" class="brightness-[.30]"/>
+        <div class="overflow-hidden absolute top-0 right-0 bottom-0 left-0 z-0 max-h-full">
+            <img src="../assets/image/splash.jpg" alt="" class="brightness-[.30] h-full object-cover"/>
         </div>
 
         <!-- Headings -->
         <div class="flex h-full items-center justify-center bg-gray-200">
             <div class="text-white z-10">
-                <p class="text-4xl lg:text-6xl font-semibold">Mohamad Abyannaufal</p>
-                <p class="lg:mt-14 mt-5 text-lg">Welcome to my website.</p>
-                <p class="text-lg">I'm a data enthusiast and fresh graduate</p>
-                <p class="text-lg">from Dian Nuswantoro University</p>
+                <p class="text-3xl lg:text-6xl font-semibold">Mohamad Abyannaufal</p>
+                <p class="lg:mt-14 mt-5 lg:text-lg text-sm">Welcome to my website.</p>
+                <p class="lg:text-lg text-sm">I'm a data enthusiast and fresh graduate from Dian Nuswantoro University</p>
+
 
                 <!-- Social Media Button and Portfolio-->
                 <div class="lg:mt-10 mt-5 flex flex-wrap items-center justify-center gap-x-3">
