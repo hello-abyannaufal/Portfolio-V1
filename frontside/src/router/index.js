@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import PageHome from '../views/PageHome.vue'
 import PageAbout from '../views/PageAbout.vue'
+import PagePortfolio from '../views/PagePortfolio.vue'
 
 
 // Declare routes
@@ -14,6 +15,11 @@ const routes = [
         path: '/about',
         name: 'about-view',
         component: PageAbout
+    },
+    {
+        path: '/portfolio',
+        name: 'portfolio-view',
+        component: PagePortfolio
     }
 ]
 

@@ -16,15 +16,17 @@
                     <ul class="flex flex-col lg:flex-row list-none ml-auto">
                         <li class="nav-item">
                             <router-link :to="{ path: '/about' }">
-                            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
-                                <i class="fab fa-regular fa-circle-user text-lg leading-lg text-white opacity-75" /><span class="ml-2">About</span>
-                            </a>
-                        </router-link>
+                                <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
+                                    <i class="fab fa-regular fa-circle-user text-lg leading-lg text-white opacity-75" /><span class="ml-2">About</span>
+                                </a>
+                            </router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-                                <i class="fab fa-solid fa-code text-lg leading-lg text-white opacity-75" /><span class="ml-2">Portfolio</span>
-                            </a>
+                            <router-link :to="{ path: '/portfolio' }">
+                                <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+                                    <i class="fab fa-solid fa-code text-lg leading-lg text-white opacity-75" /><span class="ml-2">Portfolio</span>
+                                </a>
+                            </router-link>
                         </li>
                         <li class="nav-item">
                             <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
