@@ -27,7 +27,7 @@
                         <!-- Put Photo Here -->
                         <img src="../assets/image/avatar.jpg" alt=""/>
                     </div>
-                    <button class="mt-5 transform rounded-lg border-2 border-gray-400 bg-transparent py-2 px-10 font-semibold text-gray-400 transition duration-200 ease-in hover:-translate-y-1 hover:border-transparent hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white active:translate-y-0">Portfolio</button>
+                    <button class="mt-5 transform rounded-lg border-2 border-blue-500 bg-transparent py-2 px-10 font-semibold text-blue-500 transition duration-200 ease-in hover:-translate-y-1 hover:border-transparent hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white active:translate-y-0">View CV</button>
                 </div>
             </div>
         </div>

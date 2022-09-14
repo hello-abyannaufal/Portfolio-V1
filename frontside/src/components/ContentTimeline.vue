@@ -40,7 +40,9 @@
             <div class="pb-8">
                 <p class="text-xl font-bold text-gray-600">Graduated from Bootcamp with Satisfying Grade</p>
                 <p class="mb-4 font-semibold text-gray-700">Fullstack Bangalore, September 2022</p>
-                <button class="transform rounded-md border-2 border-blue-500 bg-transparent py-2 px-2 text-xs font-semibold text-blue-500 transition duration-200 ease-in hover:-translate-y-1 hover:border-transparent hover:bg-blue-500 hover:text-white active:translate-y-0">View Certificate</button>
+                <router-link :to="{ path: '/certificate' }">
+                    <button class="transform rounded-md border-2 border-blue-500 bg-transparent py-2 px-2 text-xs font-semibold text-blue-500 transition duration-200 ease-in hover:-translate-y-1 hover:border-transparent hover:bg-blue-500 hover:text-white active:translate-y-0">View Certificate</button>
+                </router-link>
             </div>
             </div>
 
@@ -50,8 +52,8 @@
                 <div>
                 <div class="flex h-10 w-10 items-center justify-center rounded-full border border-blue-500 text-blue-500 transition-[color,box-shadow] duration-[400ms,700ms] hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-blue-500">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <!-- SVG From Heroicons-->
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        <!-- SVG From Heroicons-->
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                     </svg>
                 </div>
                 </div>

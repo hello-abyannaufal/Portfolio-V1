@@ -3,6 +3,7 @@ import PageHome from '../views/PageHome.vue'
 import PageAbout from '../views/PageAbout.vue'
 import PagePortfolio from '../views/PagePortfolio.vue'
 import PageCertificate from '../views/PageCertificate.vue'
+import PageError from '../views/PageError.vue'
 
 
 // Declare routes
@@ -27,6 +28,11 @@ const routes = [
         name: 'certificate-view',
         component: PageCertificate
     },
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'error-view',
+        component: PageError
+    }
 ]
 
 // Calling routes for CreateRouter

@@ -45,7 +45,9 @@
                         </a>
                     </div>
                 </div>
-                <button class="mt-5 transform rounded-lg border-2 border-white bg-transparent py-2 px-10 font-semibold text-white transition duration-200 ease-in hover:-translate-y-1 hover:border-transparent hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white active:translate-y-0">Portfolio</button>
+                <router-link :to="{ path: '/portfolio' }">
+                    <button class="mt-5 transform rounded-lg border-2 border-white bg-transparent py-2 px-10 font-semibold text-white transition duration-200 ease-in hover:-translate-y-1 hover:border-transparent hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white active:translate-y-0">Portfolio</button>
+                </router-link>
             </div>
         </div>
     </div>
