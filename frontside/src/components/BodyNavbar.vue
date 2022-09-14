@@ -29,9 +29,11 @@
                             </router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
-                                <i class="fab fa-solid fa-certificate text-lg leading-lg text-white opacity-75" /><span class="ml-2">Certificate</span>
-                            </a>
+                            <router-link :to="{ path: '/certificate' }">
+                                <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+                                    <i class="fab fa-solid fa-certificate text-lg leading-lg text-white opacity-75" /><span class="ml-2">Certificate</span>
+                                </a>
+                            </router-link>
                         </li>
                     </ul>
                 </div>

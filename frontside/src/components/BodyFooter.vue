@@ -40,14 +40,18 @@
                             <ul class="list-unstyled">
                             <li>
                                 <router-link :to="{ path: '/about' }">
-                                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/presentation?ref=njs-profile">About</a>
+                                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">About</a>
                                 </router-link>
                             </li>
                             <li>
-                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://blog.creative-tim.com?ref=njs-profile">Portfolio</a>
+                                <router-link :to="{ path: '/portfolio' }">
+                                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Portfolio</a>
+                                </router-link>
                             </li>
                             <li>
-                                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.github.com/creativetimofficial?ref=njs-profile">Certificate</a>
+                                <router-link :to="{ path: '/certificate' }">
+                                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm">Certificate</a>
+                                </router-link>
                             </li>
                             </ul>
                         </div>
