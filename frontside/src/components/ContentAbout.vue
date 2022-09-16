@@ -27,7 +27,9 @@
                         <!-- Put Photo Here -->
                         <img src="../assets/image/avatar.jpg" alt=""/>
                     </div>
-                    <button class="mt-5 transform rounded-lg border-2 border-blue-500 bg-transparent py-2 px-10 font-semibold text-blue-500 transition duration-200 ease-in hover:-translate-y-1 hover:border-transparent hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white active:translate-y-0">View CV</button>
+                    <a href="https://drive.google.com/file/d/1kqznw2FQdLmC7URcaSUp0W0TTWvoevUS/view?usp=sharing">
+                        <button class="mt-5 transform rounded-lg border-2 border-blue-500 bg-transparent py-2 px-5 font-semibold text-blue-500 transition duration-200 ease-in hover:-translate-y-1 hover:border-transparent hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white active:translate-y-0" >View Resume</button>
+                    </a>
                 </div>
             </div>
         </div>
