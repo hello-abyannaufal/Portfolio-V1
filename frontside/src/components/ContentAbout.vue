@@ -13,8 +13,7 @@
                         I'm a fresh graduate from Dian Nuswantoro University. Data enthusiast and have strong will to learn about something new. 
                     </p>
                     <p class=" pb-4 text-justify text-gray-500">
-                        I learn basic programming when I was in university, learning steganography and encryption for my final project. After graduate, I'm exploring Kaggle to study Machine Learning and realized that my passion is data science. 
-                        Currently, I'm learning programming using Python, JavaScript, Vue and Tailwind when this web was created.
+                        I learn basic programming when I was in university, learning steganography and encryption for my final project. After graduate, I'm exploring Kaggle to study Machine Learning and realized that my passion is data science.
                     </p>
                     <p class=" pb-4 text-justify text-gray-500">
                         Currently, I'm learning programming using Python, JavaScript, Vue and Tailwind when this web was created.

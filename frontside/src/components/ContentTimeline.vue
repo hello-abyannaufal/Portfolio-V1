@@ -40,9 +40,9 @@
             <div class="pb-8">
                 <p class="text-xl font-bold text-gray-600">Graduated from Bootcamp with Satisfying Grade</p>
                 <p class="mb-4 font-semibold text-gray-700">Fullstack Bangalore, September 2022</p>
-                <router-link :to="{ path: '/certificate' }">
+                <a href="https://drive.google.com/file/d/1674wVU7N-gvJT7PELCxdaRt00a5p4Inn/view?usp=sharing">
                     <button class="transform rounded-md border-2 border-blue-500 bg-transparent py-2 px-2 text-xs font-semibold text-blue-500 transition duration-200 ease-in hover:-translate-y-1 hover:border-transparent hover:bg-blue-500 hover:text-white active:translate-y-0">View Certificate</button>
-                </router-link>
+                </a>
             </div>
             </div>
 

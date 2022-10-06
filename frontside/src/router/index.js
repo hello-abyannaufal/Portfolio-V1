@@ -29,8 +29,17 @@ const routes = [
         component: PageCertificate
     },
     {
-        path: '/:pathMatch(.*)*',
+        path: '/projects',
+        name: 'projects-view'
+    },
+    {
+        path: '/*',
         name: 'error-view',
+        component: PageError
+    },
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'error-view-alter',
         component: PageError
     }
 ]
