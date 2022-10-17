@@ -2,6 +2,7 @@
 from flask import Flask
 from flask_cors import CORS
 from flask_restful import Api
+import os
 
 # Import libraries
 from endpoints.github import Github
@@ -17,4 +18,5 @@ CORS(app)
 api.add_resource(Github, '/github/<string:user>', methods=['GET'])
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=True, port=port)
