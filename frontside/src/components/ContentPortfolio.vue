@@ -49,7 +49,7 @@
         methods: {
             async getGithub() {
                 try{
-                    const response = await axios.get('http://127.0.0.1:5000/github/hello-abyannaufal')
+                    const response = await axios.get('http://abyannaufal.herokuapp.com/github/hello-abyannaufal')
                     this.githubData = response.data
                     console.log(`created_at is ${typeof(this.githubData[0].name)}`)
                 } catch(err) {
