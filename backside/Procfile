@@ -1,1 +1,1 @@
-web: gunicorn -b :$PORT app:app --reload --worker 2
+web: gunicorn -b :$PORT app:app
