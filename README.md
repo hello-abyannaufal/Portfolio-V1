@@ -17,7 +17,7 @@
 [<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 [//]: <>
-[website]: www.google.com
+[website]: http://abyannaufal.netlify.app
 [youtube]: https://www.youtube.com/channel/UCW9GNnKj-FdeYQyDszXELqg
 [twitter]: https://twitter.com/abyannaufal27
 [linkedin]: https://www.linkedin.com/in/mohamad-abyannaufal-aditya-kusuma-1626371ba/
