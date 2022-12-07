@@ -3,9 +3,9 @@
 ## I'm a Data Science Enthusiast
 
 - 🔭 I'm currently freshgraduated from my college, Dian Nuswantoro University
-- 🌱 I'm currently learning Fullstack and Data Science
+- 🌱 I'm currently wokring at PT Sarana Pactindo as a Frontend Developer
 - 📖 I'm currently learning Python and Javascript
-- 🥅 2023 Goals : I wanna complete my dream which is working as Data Scientist
+- 🥅 2023 Goals : I wanna complete to learning Fullstack Developer
 - ⚡ Fun fact: I love to playing guitar and piano
 
 ## Connect with me:
